@@ -80,12 +80,18 @@ body{
     font-size: 24px;
 }
 
+.apresentacao__links__subtitulo__lista{
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-size: 24px;
+}
+
 .apresentacao__links__link{
     display: flex;
     justify-content: center;
     gap: 16px;
     border: 2px solid var(--cor-terciaria);
-    width: 378px;
+    width: 350px;
     text-align: center;
     border-radius: 8px;
     font-size: 24px;
@@ -100,7 +106,7 @@ body{
     background-color: var(--cor-hover);
 }
 .rodape {
-    padding: 24px;
+    padding: 2%;
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
     text-align: center;
