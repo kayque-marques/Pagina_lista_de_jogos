@@ -5,6 +5,12 @@
     --cor-secundaria: #f6f6f6;
     --cor-terciaria: #1DCD9F;
     --cor-hover: #169976;
+    --cor-10: #06D001;
+    --cor-9: #00FF9C;
+    --cor-8: #00CAFF;
+    --cor-7: #FF8E00;
+    --cor-6: #F3C623;
+    --cor-5-: #EA2F14;
 
     --fonte-primaria: 'Krona One', sans-serif;
     --fonte-secundaria: 'Montserrat', sans-serif;
@@ -74,10 +80,46 @@ body{
     font-family: var(--fonte-secundaria);
 }
 
-.jogos__zerados__texto__nota{
+.jogos__zerados__texto__nota__10{
     font-size: 36px;
     font-family: var(--fonte-primaria);
     padding: 0% 0% 5% 0%;
+    color: var(--cor-10);
+}
+
+.jogos__zerados__texto__nota__9{
+    font-size: 36px;
+    font-family: var(--fonte-primaria);
+    padding: 0% 0% 5% 0%;
+    color: var(--cor-9);
+}
+
+.jogos__zerados__texto__nota__8{
+    font-size: 36px;
+    font-family: var(--fonte-primaria);
+    padding: 0% 0% 5% 0%;
+    color: var(--cor-8);
+}
+
+.jogos__zerados__texto__nota__7{
+    font-size: 36px;
+    font-family: var(--fonte-primaria);
+    padding: 0% 0% 5% 0%;
+    color: var(--cor-7);
+}
+
+.jogos__zerados__texto__nota__6{
+    font-size: 36px;
+    font-family: var(--fonte-primaria);
+    padding: 0% 0% 5% 0%;
+    color: var(--cor-6);
+}
+
+.jogos__zerados__texto__nota__5-{
+    font-size: 36px;
+    font-family: var(--fonte-primaria);
+    padding: 0% 0% 5% 0%;
+    color: var(--cor-5-);
 }
 
 img{
