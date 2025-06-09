@@ -68,6 +68,7 @@ body{
 .jogos__zerados__titulo{
     font-size: 36px;
     font-family: var(--fonte-primaria);
+    color: var(--cor-terciaria);
 }
 
 .jogos__zerados__texto__nome{
@@ -83,43 +84,50 @@ body{
 .jogos__zerados__texto__nota__10{
     font-size: 36px;
     font-family: var(--fonte-primaria);
-    padding: 0% 0% 5% 0%;
     color: var(--cor-10);
 }
 
 .jogos__zerados__texto__nota__9{
     font-size: 36px;
     font-family: var(--fonte-primaria);
-    padding: 0% 0% 5% 0%;
     color: var(--cor-9);
 }
 
 .jogos__zerados__texto__nota__8{
     font-size: 36px;
     font-family: var(--fonte-primaria);
-    padding: 0% 0% 5% 0%;
     color: var(--cor-8);
 }
 
 .jogos__zerados__texto__nota__7{
     font-size: 36px;
     font-family: var(--fonte-primaria);
-    padding: 0% 0% 5% 0%;
     color: var(--cor-7);
 }
 
 .jogos__zerados__texto__nota__6{
     font-size: 36px;
     font-family: var(--fonte-primaria);
-    padding: 0% 0% 5% 0%;
     color: var(--cor-6);
 }
 
 .jogos__zerados__texto__nota__5-{
     font-size: 36px;
     font-family: var(--fonte-primaria);
-    padding: 0% 0% 5% 0%;
     color: var(--cor-5-);
+}
+
+.jogos__zerados__texto__plataformas{
+    font-size: 36px;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-secundaria);
+}
+
+.jogos__zerados__texto__plataformas__nomes{
+    font-size: 28px;
+    font-weight: 100;
+    font-family: var(--fonte-secundaria);
+    padding: 0% 0% 5% 0%;
 }
 
 img{
