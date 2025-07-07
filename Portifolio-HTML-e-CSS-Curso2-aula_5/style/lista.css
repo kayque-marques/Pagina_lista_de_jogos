@@ -161,10 +161,11 @@ img{
     .cabecalho__menu__link{
         font-size: 14px;
         justify-content: center;
+        font-family: var(--fonte-terciaria);
     }
     
     .jogos__zerados__titulo{
-        font-size: 18px;
+        font-size: 20px;
         font-family: var(--fonte-terciaria);
     }
 
