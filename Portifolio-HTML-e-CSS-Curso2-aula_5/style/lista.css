@@ -169,7 +169,7 @@ img{
     }
 
     .jogos__zerados__texto__nome{
-        font-size: 18px;
+        font-size: 20px;
         font-family: var(--fonte-terciaria);
     }
 
@@ -179,50 +179,55 @@ img{
     }
 
     .jogos__zerados__texto__nota__10{
-        font-size: 18px;
+        font-size: 20px;
         font-family: var(--fonte-terciaria);
     }
 
     .jogos__zerados__texto__nota__9{
-        font-size: 18px;
+        font-size: 20px;
         font-family: var(--fonte-terciaria);
     }
 
     .jogos__zerados__texto__nota__8{
-        font-size: 18px;
+        font-size: 20px;
         font-family: var(--fonte-terciaria);
     }
 
     .jogos__zerados__texto__nota__7{
-        font-size: 18px;
+        font-size: 20px;
         font-family: var(--fonte-terciaria);
     }
 
     .jogos__zerados__texto__nota__6{
-        font-size: 18px;
+        font-size: 20px;
         font-family: var(--fonte-terciaria);
     }
 
     .jogos__zerados__texto__nota__5{
-        font-size: 18px;
+        font-size: 20px;
         font-family: var(--fonte-terciaria);
     }
 
     .jogos__zerados__texto__plataformas{
         font-size: 18px;
         font-family: var(--fonte-terciaria);
-        font-weight: 100;
+        font-weight: 200;
     }
 
     .jogos__zerados__texto__plataformas__nomes{
         font-size: 18px;
         font-family: var(--fonte-terciaria);
-        font-weight: 100;
+        font-weight: 200;
     }
 
     img{
         width: 60%;
         object-fit: cover;
         border-radius: 8px;
+    }
+
+    .rodape{
+    padding: 1%;
+    font-size: 18px;
     }
 }
