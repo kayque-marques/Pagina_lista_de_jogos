@@ -149,3 +149,65 @@ img{
     font-size: 24px;
     font-weight: 400;
 }
+
+@media screen and (max-width: 430px){
+
+    .cabecalho{
+    padding: 5% 0% 3% 6%;
+    }
+
+    .cabecalho__menu__link{
+        font-size: 18px;
+        justify-content: center;
+    }
+    
+    .jogos__zerados__titulo{
+        font-size: 24px
+    }
+
+    .jogos__zerados__texto__nome{
+        font-size: 24px;
+    }
+
+    .jogos__zerados__texto{
+        font-size: 18px;
+    }
+
+    .jogos__zerados__texto__nota__10{
+        font-size: 24px;
+    }
+
+    .jogos__zerados__texto__nota__9{
+        font-size: 24px;
+    }
+
+    .jogos__zerados__texto__nota__8{
+        font-size: 24px;
+    }
+
+    .jogos__zerados__texto__nota__7{
+        font-size: 24px;
+    }
+
+    .jogos__zerados__texto__nota__6{
+        font-size: 24px;
+    }
+
+    .jogos__zerados__texto__nota__5{
+        font-size: 24px;
+    }
+
+    .jogos__zerados__texto__plataformas{
+        font-size: 24px;
+    }
+
+    .jogos__zerados__texto__plataformas__nomes{
+        font-size: 18px;
+    }
+
+    img{
+        width: 60%;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+}
