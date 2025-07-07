@@ -211,11 +211,13 @@ img{
     .jogos__zerados__texto__plataformas{
         font-size: 18px;
         font-family: var(--fonte-terciaria);
+        font-weight: 100;
     }
 
     .jogos__zerados__texto__plataformas__nomes{
         font-size: 18px;
         font-family: var(--fonte-terciaria);
+        font-weight: 100;
     }
 
     img{
