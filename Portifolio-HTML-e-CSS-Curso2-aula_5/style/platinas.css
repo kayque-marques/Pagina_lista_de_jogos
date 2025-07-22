@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --cor-primaria: #000000;
+    --cor-secundaria: #f6f6f6;
+    --cor-terciaria: #1DCD9F;
+    --cor-hover: #169976;
+    --cor-10: #06D001;
+    --cor-9: #00FF9C;
+    --cor-8: #00CAFF;
+    --cor-7: #FF8E00;
+    --cor-6: #F3C623;
+    --cor-5-: #EA2F14;
+
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+    --fonte-terciaria: 'josefins-sans', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+
+.cabecalho{
+    padding: 2% 0% 0% 15%;
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link{
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--cor-terciaria);
+    text-decoration: none;
+}
+
+.platinas{
+    padding: 3% 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.platinas__conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.platinas__conteudo__titulo{
+    font-size: 2.25rem;
+    font-family: var(--fonte-primaria);
+    width: 80%;
+    margin-bottom: 3%;
+}
+
+.titulo-destaque{
+    color: var(--cor-terciaria);
+}
+
+.platinas__lista{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.platinas__lista__divisao{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.platinas__lista__nome{
+    font-size: 2.25rem;
+    font-family: var(--fonte-primaria);
+    text-align: center;
+}
+
+.platinas__lista__texto{
+    font-size: 1.5rem;
+    font-weight: 300;
+    font-family: var(--fonte-secundaria);
+    line-height: 1.3;
+    word-spacing: 5px;
+}
+
+.platinas__lista__texto__nota__1-2{
+    font-size: 2.25rem;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-10);
+}
+
+.platinas__lista__texto__nota__3-4{
+    font-size: 2.25rem;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-8);
+}
+
+.platinas__lista__texto__nota__5-6{
+    font-size: 2.25rem;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-6);
+}
+
+.platinas__lista__texto__nota__7-8{
+    font-size: 2.25rem;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-7);
+}
+
+.platinas__lista__texto__nota__9-10{
+    font-size: 2.25rem;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-5-);
+}
+
+.platinas__lista__texto__plataformas{
+    font-size: 2.25rem;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-secundaria);
+}
+
+.platinas__lista__texto__plataformas__nomes{
+    font-size: 1.75rem;
+    font-weight: 100;
+    font-family: var(--fonte-secundaria);
+    padding: 0% 0% 5% 0%;
+}
+
+img{
+    width: 15rem;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.rodape {
+    padding: 2%;
+    color: var(--cor-primaria);
+    background-color: var(--cor-terciaria);
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+    font-size: 24px;
+    font-weight: 400;
+}
