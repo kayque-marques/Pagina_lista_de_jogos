@@ -158,3 +158,82 @@ img{
     font-size: 24px;
     font-weight: 400;
 }
+
+@media screen and (max-width: 430px){
+    .cabecalho{
+    padding: 5% 0% 3% 6%;
+    }
+
+    .cabecalho__menu{
+        gap: 30px;
+    }
+
+    .cabecalho__menu__link{
+        font-size: 1rem;
+        justify-content: center;
+        font-family: var(--fonte-terciaria);
+    }
+
+    .platinas__conteudo__titulo{
+        font-size: 1.25rem;
+        font-family: var(--fonte-terciaria);
+    }
+
+    .platinas__lista__nome{
+        font-size: 1.25rem;
+        font-family: var(--fonte-terciaria);
+    }
+
+    .platinas__lista__texto{
+        font-size: 1rem;
+        font-family: var(--fonte-terciaria);
+    }
+
+    .platinas__lista__texto__nota__1-2{
+        font-size: 1.25rem;
+        font-family: var(--fonte-terciaria);
+    }
+
+    .platinas__lista__texto__nota__3-4{
+        font-size: 1.25rem;
+        font-family: var(--fonte-terciaria);
+    }
+
+    .platinas__lista__texto__nota__5-6{
+        font-size: 1.25rem;
+        font-family: var(--fonte-terciaria);
+    }
+
+    .platinas__lista__texto__nota__7-8{
+        font-size: 1.25rem;
+        font-family: var(--fonte-terciaria);
+    }
+
+    .platinas__lista__texto__nota__9-10{
+        font-size: 1.25rem;
+        font-family: var(--fonte-terciaria);
+    }
+
+    .platinas__lista__texto__plataformas{
+        font-size: 1.25rem;
+        font-family: var(--fonte-terciaria);
+        font-weight: 200;
+    }
+
+    .platinas__lista__texto__plataformas__nomes{
+        font-size: 1.25rem;
+        font-family: var(--fonte-terciaria);
+        font-weight: 200;
+    }
+
+    img{
+        width: 10rem;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+    .rodape{
+    padding: 1%;
+    font-size: 18px;
+    }
+}

@@ -157,6 +157,10 @@ img{
     padding: 5% 0% 3% 6%;
     }
 
+    .cabecalho__menu{
+        gap: 30px;
+    }
+
     .cabecalho__menu__link{
         font-size: 1rem;
         justify-content: center;
