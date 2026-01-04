@@ -105,6 +105,13 @@ body{
 }
 
 .imagem__lista{
+    width: 80px;
+    height: 35px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.imagem__lista__platina{
     width: 30px;
     height: 35px;
     object-fit: cover;
